@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+body {
+	background: #f3a382;
+}
+hr {
+	border: 1px solid #eee;
+	margin-bottom: 25px;
+}
+.joinbody {
+	margin: 0 auto;
+	padding: 100px;
+	max-width: 80%;
+}
+.loginbody {
+	margin: 0 auto;
+	padding: 250px 500px;
+	/* max-width: 80%; */
+}
+.container {
+	padding: 50px;
+}
+.joinform, .loginform {
+	background: rgba(255, 255, 255, .9);
+	outline: none;
+	box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+}
+.joinbtn {
+	width: 100%;
+}
+.birth {
+	display: flex;
+	display: -webkit-flex;
+}
+.birthY, .birthM, .birthD {
+	flex: 1;
+}
+.birthM {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.gender, .hobby {
+	margin: 10px 0 22px 0;
+}
+.loginform a {
+	text-decoration: none;
+	color: #666;
+	font-size: small;
+}
+.loginform a:nth-child(even) {
+	float: left;
+}
+
+.loginform a:nth-child(odd) {
+	float: right;
+}
+
+.loginform a:hover, .loginform a:focus {
+	color: #f3a382;
+}
+/* .sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+} */
+.check {
+	margin-left: 10px;
+	font-size: 11px;
+	color: red;
+}
+.updateSec {
+    width: 100%;
+    text-align: center;
+}
+.updateSec .fa-user-slash {
+	font-size: 30px;
+    margin: 30px auto 0;
+}

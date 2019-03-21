@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+
+.loginform a,
+.userCard a {
+	text-decoration: none;
+	color: #666;
+	font-size: small;
+}
+/* .loginform a:nth-child(even) { */
+.loginform a:first-child {
+	float: left;
+}
+/* .loginform a:nth-child(odd) { */
+.loginform a:last-child {
+	float: right;
+}
+.userCard a:nth-child(odd) {
+	float: right;
+}
+.loginform a:hover, .loginform a:focus {
+	color: #f3a382;
+}
+.card {
+	background-color: white;
+	padding: 20px;
+	margin: 40px 0;
+}
+.row {
+	display: flex;
+}
+.list {
+	flex: 1;
+	margin: 0;
+	padding: 10px 20px;
+}
+.list p {
+	line-height: 2em;
+}
+.loginbtn, .logoutbtn {
+	width: 100%;
+}

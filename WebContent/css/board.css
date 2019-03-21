@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+.boardbody {
+	margin: 0 auto;
+    padding: 100px 250px;
+    /* background: white; */
+}
+.board {
+	margin: 0 0 100px;
+}
+.board h1 {
+    font-size: 40px;
+}
+.board h1::before {
+    display: block;
+    width: 68px;
+    height: 2px;
+    background: #f3a382;
+    content: '';
+    margin-bottom: 20px;
+}
+.board span {
+    display: block;
+    margin: 5px 0;
+    color: #aaa;
+    font-size: 13px;
+}
+.board .far {
+	margin-right: 10px;
+}
+.board span:nth-child(3) {
+	margin-bottom: 30px;
+}
+.boardcont {
+    clear: both;
+    margin: 90px 0 10px;
+    color: #777;
+}
+.boardcont img {
+    width: 100%;
+    height: 100%;
+}
+.row {
+    display: flex;
+    justify-content: center;
+}
+.row a {
+    margin: 0 5px;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
